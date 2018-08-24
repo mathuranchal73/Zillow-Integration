@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+<title>SoftAppsPro technologies-HOME</title>
+<meta http-equiv="content-type" content="application/xhtml; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--[if lt IE 8.]><link rel="stylesheet" type="text/css" href="css/style-ie.css" /><![endif]-->
+<!--[if lt IE 7.]><link rel="stylesheet" type="text/css" href="css/style-ie6.css" /><![endif]-->
+<!--  STEP ONE: insert path to SWFObject JavaScript -->
+<script type="text/javascript" src="js/swfobject/swfobject.js"></script>
+<!--  STEP TWO: configure SWFObject JavaScript and embed CU3ER slider -->
+<script type="text/javascript">
+    var flashvars = {};
+    flashvars.xml = "config.xml";
+    flashvars.font = "font.swf";
+    var attributes = {};
+    attributes.wmode = "transparent";
+    attributes.id = "slider";
+    swfobject.embedSWF("cu3er.swf", "cu3er-container", "920", "327", "9", "expressInstall.swf", flashvars, attributes);
+</script>
+</head>
+<body>
+<!-- Main Body Starts Here -->
+<div id="main_body">
+  <!-- Top Part Starts Here -->
+  <div id="top_part">
+    <!-- Top Part Image Starts Here -->
+    <div id="top_part_image">
+      <!-- Logo Part Starts Here -->
+      <div id="main_logo"> <a href="#"><img src="images/main_logo.jpg"  alt=""  /> </a> </div>
+      <!-- Logo Part Ends Here -->
+        <div style="padding-left:100px;padding-bottom:20px;color:#aaaaaa;font-size:40px;">SoftAppsPro Technologies</div>
+    </div>
+    <!-- Top Part Image Ends Here -->
+    <!-- Main Menu Starts Here -->
+    <div id="main_menu_bg">
+      <!-- Main Menu Body Starts Here -->
+      <div id="main_menu_body">
+        <!-- Menu Links Starts Here -->
+        <div class="menu_links">Zillow Integration tool  </div>
+        <!-- Menu Links Ends Here -->
+      </div>
+      <!-- Main Menu Body Ends Here -->
+    </div>
+    <!-- Main Menu Ends Here -->
+  </div>
+  <!-- Top Part Ends Here -->
+  <!-- Content Body Starts Here -->
+  <div id="content_body">
+    <!-- Home Content Slider Starts Here -->
+    
+    <!-- Home Content Slider Ends Here -->
+    <!-- Home News Starts Here -->
+   
+      <!-- Headers Starts Here -->
+               
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   
+
+        </
+    </div>
+    <!-- Home News Ends Here -->
+    <!-- Home Social & Newsletter Part Starts here -->
+    
+      <!-- Testimonial Ends Here -->
+      <!-- News Letter Starts Here -->
+      
+      <!-- NewsLetter Ends Here -->
+      <!-- Social Starts Here -->
+      
+      <!-- Social Ends Here -->
+    </div>
+    <!-- Home Social & Newsletter Part Starts here -->
+    <!-- Home Right Box Starts here -->
+    
+  <!-- Clear -->
+  <div class="clear"> </div>
+  <!-- Clear -->
+  <!-- Content Body Ends Here -->
+  <!--Footer Starts Here -->
+  <div id="footer">
+    <div class="left">
+      
+    </div>
+    <div class="right" style="padding-right:30px;"> Copyright &copy; 2014 <a style="color:#ffffff;" href="#">SoftAppsPro Technologies</a>. All rights reserved </div>
+  </div>
+  <!-- Footer Ends Here -->
+</div>
+<!-- Main Body Ends Here -->
+<div align=center>This tool is  developed by <a href='http:softappspro.com'>SoftAppsPro.com</a></div></body>
+</html>
+
+</body>
+
+
+
+
+</html>
